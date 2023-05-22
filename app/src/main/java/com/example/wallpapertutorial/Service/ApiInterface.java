@@ -1,6 +1,8 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Service;
 
-import static com.example.wallpapertutorial.ApiUtilities.API;
+import static com.example.wallpapertutorial.Service.ApiUtilities.API;
+
+import com.example.wallpapertutorial.Models.SesrchModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

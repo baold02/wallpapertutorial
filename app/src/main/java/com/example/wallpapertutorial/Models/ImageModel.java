@@ -1,4 +1,4 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Models;
 
 public class ImageModel {
     private UrlModel src;

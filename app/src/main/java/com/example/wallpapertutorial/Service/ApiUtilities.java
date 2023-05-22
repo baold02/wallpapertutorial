@@ -1,4 +1,4 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Service;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

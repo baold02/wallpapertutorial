@@ -1,4 +1,4 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Models;
 
 import java.util.ArrayList;
 

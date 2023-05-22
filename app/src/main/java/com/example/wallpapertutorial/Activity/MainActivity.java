@@ -1,4 +1,4 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -6,15 +6,18 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.wallpapertutorial.Adapter.Adapter;
+import com.example.wallpapertutorial.Models.ImageModel;
+import com.example.wallpapertutorial.R;
+import com.example.wallpapertutorial.Service.ApiUtilities;
+import com.example.wallpapertutorial.Models.SesrchModel;
+
 import java.util.ArrayList;
-import java.util.Locale;
 
 import retrofit2.Call;
 import retrofit2.Callback;

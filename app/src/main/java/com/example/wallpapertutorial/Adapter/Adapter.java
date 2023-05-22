@@ -1,4 +1,4 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.wallpapertutorial.Activity.setwallpaper;
+import com.example.wallpapertutorial.Models.ImageModel;
+import com.example.wallpapertutorial.R;
 
 import java.util.ArrayList;
 
@@ -56,7 +59,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHodel> {
         holder.image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 =new Intent(context,setwallpaper.class);
+                Intent intent2 =new Intent(context, setwallpaper.class);
                 intent2.putExtra("image",wallpaperList.get(position).getSrc().getPortrait());
                 intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent2);

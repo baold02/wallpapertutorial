@@ -1,4 +1,4 @@
-package com.example.wallpapertutorial;
+package com.example.wallpapertutorial.Models;
 
 public class UrlModel {
     private String portrait;
